@@ -1,0 +1,2 @@
+local RS = game:GetService("ReplicatedStorage") local RC = RS:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("Building Tools") or game.Players.LocalPlayer.Character:FindFirstChild("Building Tools") local remote = tool.SyncAPI.ServerEndpoint local char = game.Players.LocalPlayer.Character  RC:InvokeServer(";Btools")
+end)
